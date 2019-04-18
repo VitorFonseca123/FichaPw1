@@ -1,0 +1,109 @@
+<!doctype>
+<html>
+<style>
+	table{
+	 font-family: Times New Roman;
+	 border-radius: 20px;
+	}
+	input{
+		border: 0;
+		border-bottom: solid black 1px;
+		outline: none;
+	}	
+	td{ border-radius: 20px}
+	th{ border-radius:20px}
+	.enviar{
+		background-color:#FF0000;
+		color: white;
+		height: 40px;
+		width: 80px;
+		border: 0;
+		font-size: 15pt;
+	}
+</style>
+<head>
+	<meta charset="uft-8"
+</head>
+<body>
+	<center>
+		<table border="1" width=62%>
+			<tr>
+				<th><h1> Cadastro Pessoa Física </h1></th>
+			</tr>
+			<tr>
+				<td><center>
+					<form method="post" action="">
+						<label for="nome">Nome: </label>
+						<input id="nome" type=text required name=nome size="38"/>
+						<label for ="Est. Civil">Est. Civil: </label>
+						<input id="Est.Civil" type=text required name=Est.Civil size="15"/>
+						<label for ="Data Nascimeto">Data Nascimeto: </label>
+						<input id="Data Nascimeto" type=date required name=date size="2"/>
+						<br />
+						<label for ="Local Nascimento">Local Nascimento: </label>
+						<input id="Local Nascimeto" type=text required name=Local.Nascimeto size="34"/>
+						<label for ="RG">RG: </label>
+						<input id="RG" type=number required name=RG size="9"/>
+						<label for ="CPF">CFP: </label>
+						<input id="CPF" type=number required name=CPF size="11"/>
+						<br />
+						<label for ="Residência">Residencia: </label>
+						<input id="Residência" type=text required name=Residência size="100"/>
+						<br />
+						<label for ="Fone">Fone: </label>
+						<input id="Fone" type=number required name=Fone size="17"/>
+						<label for ="Bairro">Bairro: </label>
+						<input id="Bairro" type=text required name=Bairo size="27"/>
+						<label for ="Cidade">Cidade: </label>
+						<input id="Cidade" type=text required name=Cidade size="34"/>
+						<br />
+						<label for ="Cidade">Há Quanto Tempo: </label>
+						<input id="Cidade" type=text required name=Cidade size="1"/>
+						<label for ="Casa">Casa Própria?: </label>
+							<input id="Casa" type=text required name=casa size="1"/>
+						<label for ="alugel">Aluguel R$: </label>
+						<input id="aluguel" type=number required name=casa size="1"/>
+						<label for ="Pensão">Pensão R$: </label>
+						<input id="pensão" type=number required name=pensão size="1"/>
+						<br />
+						<label for ="Local">Res. Anterior: </label>
+						<input id="residencia" type=text required name=Res.anterior size="28"/>
+						<label for ="cidade">Cidade: </label>
+						<input id="cidade" type=text required name=cidade/>
+						<label for ="Qto. Tempo">Qto. Tempo: </label>
+						<input id="tempo" type=text required name=tempo/>
+						<br />
+						<label for ="cidade">Local de Trabalho: </label>
+						<input id="cidade" type=text required name=cidade size="40"/>
+						<label for ="cidade">Função: </label>
+						<input id="cidade" type=text required name=cidade size="40"/>
+						<br />
+						<label for ="cidade">Endereço: </label>
+						<input id="cidade" type=text required name=cidade size="41"/>
+						<label for ="cidade">Cidade: </label>
+						<input id="cidade" type=text required name=cidade/>
+						<label for ="cidade">Fone: </label>
+						<input id="fone" type=text required name=fone size="17"/>
+						<br />
+						<label for ="cidade">Admitido em: </label>
+						<input id="admição" type=date required name=admissão/>
+						<label for ="cidade">RG. no empregador: </label>
+						<input id="cidade" type=text required name=cidade size="22"/>
+						<label for ="fone">Salario R$: </label>
+						<input id="salario" type=text required name=salario/>
+						<br />
+						<label for ="fone">Emprego Ant.: </label>
+						<input id="Emprego" type=text required name=Emprego size="47"/>
+						<label for ="fone">De: </label>
+						<input id="Emprego" type=date required name=Emprego/>
+						<label for ="fone">Até: </label>
+						<input id="Emprego" type=date required name=Emprego/>
+					</td>
+				</tr>		
+		</table>	
+						<br />
+						<input type=submit value="Enviar" class="enviar"/>
+					</form>	
+					
+</body>
+</html>
